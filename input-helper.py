@@ -1,7 +1,8 @@
 #!/usr/bin/env python
+import os
 import gi
 gi.require_version('Gtk', '3.0')
-from gi.repository import Gtk, Gdk
+from gi.repository import Gtk, Gdk, Gio
 
 import pyperclip
 import pyautogui
@@ -28,13 +29,29 @@ class SimpleTextInput:
         # create a new window
         window = Gtk.Window()
         window.set_position(Gtk.WindowPosition.CENTER)
+        window.set_name('window')
         window.set_title("Input Helper")
-        window.set_default_size(300, 60)
+        window.set_decorated(False)
+
+        window.set_default_size(300, 40)
         window.connect("destroy", self.destroy)
+
         self.entry = Gtk.Entry()
-        # self.entry.set_tooltip_text("Press Ctrl-Enter or Enter to insert string")
+        self.entry.set_name('entry')
         self.entry.connect("key_press_event", self.on_key_press)
+
         self.clipboard = Gtk.Clipboard.get(Gdk.SELECTION_CLIPBOARD)
+
+        style_provider = Gtk.CssProvider()
+        base_dir = os.path.dirname(__file__)
+        css_path = os.path.join(base_dir, 'input-helper.css')
+        style_provider.load_from_file(Gio.File.new_for_path(css_path))
+        Gtk.StyleContext.add_provider_for_screen(
+            Gdk.Screen.get_default(),
+            style_provider,
+            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+        )
+
         window.add(self.entry)
         window.show_all()
 

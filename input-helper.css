@@ -1,0 +1,11 @@
+#window {
+    background-color: rgba(30, 60, 150, 0.5);
+}
+
+#entry {
+    border: 1px solid;
+    padding: 10px 10px;
+    border-radius: 3px;
+    color: #D3DAE3;
+    background-image: linear-gradient(to bottom, rgba(30, 60, 200, 0.5));
+}
