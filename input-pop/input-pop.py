@@ -43,8 +43,8 @@ class SimpleTextInput:
         self.clipboard = Gtk.Clipboard.get(Gdk.SELECTION_CLIPBOARD)
 
         style_provider = Gtk.CssProvider()
-        base_dir = os.path.dirname(__file__)
-        css_path = os.path.join(base_dir, 'input-helper.css')
+        base_dir = os.path.abspath(os.path.dirname(__file__))
+        css_path = os.path.join(base_dir, 'input-pop.css')
         style_provider.load_from_file(Gio.File.new_for_path(css_path))
         Gtk.StyleContext.add_provider_for_screen(
             Gdk.Screen.get_default(),
