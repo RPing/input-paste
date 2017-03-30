@@ -44,7 +44,7 @@ class SimpleTextInput:
 
         style_provider = Gtk.CssProvider()
         base_dir = os.path.abspath(os.path.dirname(__file__))
-        css_path = os.path.join(base_dir, 'input-paste.css')
+        css_path = os.path.join(base_dir, 'input_paste.css')
         style_provider.load_from_file(Gio.File.new_for_path(css_path))
         Gtk.StyleContext.add_provider_for_screen(
             Gdk.Screen.get_default(),
