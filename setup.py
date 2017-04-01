@@ -15,7 +15,7 @@ def read_description(filename):
 
 setup(
     name='input-paste',
-    version='0.1',
+    version='0.1.1',
     author='Stephen Chen',
     author_email='g1222888@gmail.com',
     url='https://github.com/RPing/input-paste',
@@ -27,6 +27,7 @@ setup(
     entry_points={'console_scripts': [
         'input-paste = input_paste:main',
     ]},
+    include_package_data=True,
     classifiers = [
         'Operating System :: Unix',
         'Environment :: X11 Applications',
