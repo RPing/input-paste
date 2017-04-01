@@ -1,5 +1,7 @@
 # input-paste
 
+<img src="screenshot/input.gif" />
+
 ## 緣起
 在linux平台上，有一些桌面應用程式會遇到不能打中文的情況，像是[Sublime Text][1]、[Spotify][2]
 
@@ -35,7 +37,6 @@ $ pip install input-paste
 點擊應用程式輸入框並**維持游標位置**,叫出input-paste輸入文字後
 
 按Enter/Ctrl+Enter就會將文字貼上游標位置,或按Esc/Alt+F4關閉input-paste
-
 
 
 [1]: https://www.sublimetext.com/3
