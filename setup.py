@@ -18,7 +18,7 @@ setup(
     version='0.1',
     author='Stephen Chen',
     author_email='g1222888@gmail.com',
-    # url='',
+    url='https://github.com/RPing/input-paste',
     description='Linux上利用剪貼簿協助打中文的工具',
     long_description=read_description('README.md'),
     keywords='chinese input helper paste clipboard imfix',
