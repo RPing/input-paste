@@ -1,0 +1,37 @@
+Here is an inevitably incomplete list of MUCH-APPRECIATED CONTRIBUTORS --
+people who have submitted patches, reported bugs, added translations, helped
+answer newbie questions, and generally made PyAutoGUI that much better:
+
+Al Sweigart https://github.com/asweigart/
+Alexandr Orlov https://github.com/hey-sancho
+Anwar A. Ruff https://github.com/aaruff
+Ari Lacenski https://github.com/tensory
+Ashok Fernandez https://github.com/ashokfernandez/
+Brian Redmond https://github.com/bredmond
+Christopher Valles https://github.com/christophervalles
+clach04 https://github.com/clach04
+Clayton A. Alves https://github.com/claytonaalves
+cryzed https://github.com/cryzed
+Daniel D. Beck https://github.com/ddbeck
+danielboone https://github.com/danielboone
+David Siah https://github.com/dsiah
+Denilson Figueiredo de Sá https://github.com/denilsonsa
+dragon778 https://github.com/dragon788
+Eric https://github.com/bleuetnoir
+Harrison https://github.com/Sentdex
+Hugo Salvador https://github.com/hugoesb
+jakibaki https://github.com/
+Jeremy R. Gray https://github.com/jeremygray
+Jon Winsley https://github.com/glitchassassin
+Jose Riha https://github.com/jose1711
+Korons https://github.com/Korons
+lb1a https://github.com/lb1a
+Lesmana Zimmer https://github.com/lesmana
+liberme https://github.com/liberme
+Matt Olsen https://github.com/digwanderlust
+mvbentes https://github.com/mvbentes
+pgkos https://github.com/pgkos
+qiujieqiong https://github.com/qiujieqiong
+Ricardo Amendoeira https://github.com/ric2b
+undefx https://github.com/undefx
+Yoshiaki Ono https://github.com/fx-kirin
