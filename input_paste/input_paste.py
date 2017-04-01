@@ -57,6 +57,6 @@ class SimpleTextInput:
     def main(self):
         Gtk.main()
 
-if __name__ == "__main__":
+def main():
     txt = SimpleTextInput()
     txt.main()

@@ -1,0 +1,2 @@
+recursive-include input_paste *.css
+recursive-exclude input_paste *.py[cod]
