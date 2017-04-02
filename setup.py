@@ -15,7 +15,7 @@ def read_description(filename):
 
 setup(
     name='input-paste',
-    version='0.1.1',
+    version='0.1.2',
     author='Stephen Chen',
     author_email='g1222888@gmail.com',
     url='https://github.com/RPing/input-paste',
